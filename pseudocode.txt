@@ -1,0 +1,5 @@
+Function Main
+    Declare Integer A
+    Declare Integer B
+    Declare Integer PRICE
+
