@@ -7,3 +7,11 @@ Function Main
     Input A
     Output "BARANG YANG DIBELI"
     Input B
+
+   If B > 10
+        Output " LIMIT BARANG YANG DIBELI TIDAK BISA MELEBIHI 10 "
+    Else
+        Assign PRICE = A*B+1000
+        Output "PEMBAYARAN = "&PRICE
+    End If
+End  
