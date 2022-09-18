@@ -5,7 +5,6 @@ Sistem kasir pembayaran ini digunakan untuk menghitung jumlah pembayaran dari to
 ## BERIKUT ISI DARI REPOSITORY
 - FLOWCHART (Flowchart ini dibuat pada aplikasi Flowgorithm)
 - Pseudocode.txt
-- Algorithm.txt
 - README.md
 
 DIBUAT OLEH :
