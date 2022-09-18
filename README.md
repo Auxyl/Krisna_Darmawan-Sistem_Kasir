@@ -7,3 +7,6 @@ Sistem kasir pembayaran ini digunakan untuk menghitung jumlah pembayaran dari to
 - Pseudocode.txt
 - Algorithm.txt
 - README.md
+
+DIBUAT OLEH :
+- `Krisna Darmawan - BE2959420`
