@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-18 01:37:15 PM"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLVZDQ01VUEw7MjAyMi0wOS0xODsxMToyNTo1OSBBTTsyODEy"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLVZDQ01VUEw7MjAyMi0wOS0xODswMTozNzoxNSBQTTsxOzI5Mjk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A" type="Integer" array="False" size=""/>
+            <declare name="B" type="Integer" array="False" size=""/>
+            <declare name="PRICE" type="Integer" array="False" size=""/>
+            <output expression="&quot;HARGA BARANG&quot;" newline="True"/>
+            <input variable="A"/>
+            <output expression="&quot;BARANG YANG DIBELI&quot;" newline="True"/>
+            <input variable="B"/>
+            <if expression="B &gt; 10">
+                <then>
+                    <output expression="&quot; LIMIT BARANG YANG DIBELI TIDAK BISA MELEBIHI 10 &quot;" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="PRICE" expression="A*B+1000"/>
+                    <output expression="&quot;PEMBAYARAN = &quot;&amp;PRICE" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
