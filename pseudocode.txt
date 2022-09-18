@@ -3,3 +3,7 @@ Function Main
     Declare Integer B
     Declare Integer PRICE
 
+    Output "HARGA BARANG"
+    Input A
+    Output "BARANG YANG DIBELI"
+    Input B
